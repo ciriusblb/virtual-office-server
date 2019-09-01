@@ -1,0 +1,22 @@
+{
+  "name": "virtual-office-server",
+  "version": "1.0.0",
+  "description": "Node.js server that authenticates with an Auth0 access token and returns a Firebase auth token.",
+  "repository": "https://github.com/auth0-blog/firebase-auth0-nodeserver",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "ciriusblb for Auth0",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "firebase-admin": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
